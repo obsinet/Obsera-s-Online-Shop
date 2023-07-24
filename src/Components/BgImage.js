@@ -11,8 +11,9 @@ const BgImage = (props) => {
         justifyContent: "center",
         alignItems: "center",
 
-        minHeight: "280px",
+        minHeight: "250px",
         borderRadius: "20px",
+     
       }}
     >
       <Box
