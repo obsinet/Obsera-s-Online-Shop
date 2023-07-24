@@ -20,7 +20,7 @@ const Navigation = () => {
                 <Link to="/Shop">Shop</Link>
               </Grid>
               <Grid md={3} xs={12}>
-                <Link>Sign In</Link>
+                <Link to="/SignIn">Sign In</Link>
               </Grid>
               <Grid md={3} xs={12}>
                 <Link>Cart</Link>
