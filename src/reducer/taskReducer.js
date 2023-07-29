@@ -1,9 +1,8 @@
 const intialState = {
   tasks: [],
 };
-
 const taskReducer = (state = intialState, action) => {
-  switch (action.tyep) {
+  switch (action.type) {
     case "ADD_TASK":
       return {
         ...state,
@@ -12,7 +11,7 @@ const taskReducer = (state = intialState, action) => {
     case "DELETE_TASK":
       return {
         ...state,
-        tasks: state.tasks.filter((task) => task.id !== action.payload),
+        tasks: state.tasks.filter((task) => task.id != action.payload),
       };
     default:
       return state;
